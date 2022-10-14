@@ -1,8 +1,5 @@
 package commonsort
 
-import (
-	"algo/utility"
-)
 
 // 比较排序：
 //		交换排序：冒泡排序、快排
@@ -262,7 +259,7 @@ func RadixSort(arr []int) []int {
 		arr = bitSort(arr, bit)
 	}
 
-	utility.PrintArray(arr)
+	// utility.PrintArray(arr)
 
 	return arr
 }
